@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.section{
+    background-color: rgb(11, 39, 121);
+    width: 100vw;
+    height: 125vh;
+}
+
+.section .navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 22.5vh;
+    padding: 5vh 10vw 0 10vw;
+}
+
+.section .navbar .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+    width: 275px;
+    height: 225px;
+}
+i{
+    padding: 2vh 4vw 1vh 4vw;
+    font-size: 64px;
+    color:rgb(123, 214, 218);
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: rgb(11, 39, 121);
+    font-size: 48px;
+    margin: 10vh 0 5vh 0;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    padding: 5px 10px;
+}
+p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 5px 10px;
+}
+a{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 5px 10px;
+    color: rgb(11, 39, 121);
+}
+/* Form */
+.contactUs{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 50vw;
+    height: 85vh;
+    background-color:rgb(123, 214, 218);
+    margin: 0 25vw;
+    box-shadow:  0 0 16px black;
+}
+.contacUs .hubungiKami{
+    display: flex;
+    justify-content: center;
+    width: 50vw;    
+}
+.contactUs .hubungiKami .fullName{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.fullName{
+    margin: 1vh 0;
+}
+.emailAddress{
+    display: flex;
+    justify-content: center;
+    margin: 1vh 0;
+}
+.feedback{
+    margin: 2.5vh 0;
+}
+.contactUs .hubungiKami input{
+    display: flex;
+    justify-content: center;
+    position: static;
+    width: 35vw;
+    padding: 1vh 1vw;
+    margin: 1vh 0;
+    font-size: 18px;
+}
+textarea{
+    display: flex;
+    justify-content: center;
+    width: 35vw;
+    font-size: 18px;
+    padding: 1vh 1vw;
+    margin: 2vh 0;
+    resize: none;
+}
+.contactUs .hubungiKami .sambit{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.contactUs .hubungiKami .style-sambit{
+    border-color: black;
+    padding: 10px 15px;
+    color: rgb(11, 39, 121);
+    font-weight: bold;
+}
+.footer-container{
+    position: absolute;
+    width: 100vw;
+    height: 100px;
+    box-shadow: 0 0 16px silver;
+}
+.wrapper, .copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper i{
+    display: flex;
+    justify-content: center;
+    padding: 24px 12px 12px 12px;
+    font-size: 20px;
+}
+.wrapper a{
+    text-decoration: none;
+    color: black;
+}
+.wrapper a i:hover{
+    font-size: 24px;
+}
+.copyright{
+    margin-bottom: 12px;
+}
+/* Error */
+.contactUs .hubungiKami .error-notif{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: red;
+    text-align: center;
+    font-size: 18px;
+    margin: 3vh 0;
+}
+
